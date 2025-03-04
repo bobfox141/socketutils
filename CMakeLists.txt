@@ -11,7 +11,7 @@ set(sources
 )
 
 set(headers
-    header/socket.h
+    header/sockettee.h
     header/rlutil.h
 )
 
