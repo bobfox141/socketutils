@@ -7,12 +7,14 @@ message("-- Current CMAKE_C_FLAGS: ${CMAKE_C_FLAGS}")
 message("-- Current CMAKE_C_FLAGS_DEBUG: ${CMAKE_C_FLAGS_DEBUG}")
 set(sources
     src/sockettee.c
+    tests/socketredirector_test.c
 
 )
 
 set(headers
     header/sockettee.h
     header/rlutil.h
+
 )
 
 include_directories(socketutils PUBLIC
